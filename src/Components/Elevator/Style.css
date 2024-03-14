@@ -1,0 +1,60 @@
+/* Styles for the table */
+.passenger-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles for table headers */
+.passenger-table th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styles for table cells */
+.passenger-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+/* Alternate row color */
+.passenger-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.floor-number {
+  font-size: 16px;
+  font-weight: bold;
+}
+.Arrow {
+  color: red;
+  font-size: 100px;
+  font-weight: 800;
+}
+.elevator-controls {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btns {
+  color: gray;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: #555555 0px 0px 5px 0px;
+  font-size: 30px;
+  padding: 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+.elevator {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.elevator-log {
+  width: 80%;
+}
